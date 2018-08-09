@@ -27,3 +27,44 @@ p{
 	font-size: 16px;
 	font-weight: 400;
 }
+.content-body {
+	/*margin: 2em 0;*/
+}
+.content-body__maintxt {
+	margin: 2em 0;
+}
+.comments h4 {
+	font-weight: 600;
+}
+
+.comments-body {
+	margin: 2em 0;
+}
+.comments-body__item {
+	width: 100%;
+	background-color: rgba(217,221,241,.4);
+	background-color: #E6EAFF;
+	padding: 1em;
+	border-radius: 10px;
+}
+.comments-body__meta {
+	font-size: 12px;
+	display: flex;
+	color: #898C98;
+
+}
+.comments-body__meta-indent {
+	margin: 1em 0; 
+}
+.comments-body__meta span {
+	display: flex;
+	align-items: center;
+	margin-right: 1em; 
+}
+.comments-body__meta .material-icons {
+	font-size: 16px;
+	margin-right:.3em;
+}
+small {
+	font-style: italic;
+}
